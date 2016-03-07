@@ -19,7 +19,7 @@ header {
 .nav li {
     list-style-type: none;
     text-transform: uppercase;
-    display: inline;
+    display: inline-block;
     margin-right: 25px;
     text-align: center;
     font-family: 'Raleway', sans-serif;
@@ -58,15 +58,11 @@ header {
     padding-bottom: 70px;
 }
 .main .btn-primary{
-    background-color: #333;
     color: #fff;
-    font-family: 'Raleway', sans-serif;
-    font-weight: 400;
     font-size: 18px;
     letter-spacing: 1px;
     padding: 16px 40px;
     text-decoration: none;
-    text-transform: uppercase;
 }
 
 /*---UnderCover---*/
