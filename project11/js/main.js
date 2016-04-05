@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $(".menuButton").click(function () {
+    $('.menuButton').click(function () {
         $(this).siblings().removeClass('active');
         $(this).addClass('active');
     })
